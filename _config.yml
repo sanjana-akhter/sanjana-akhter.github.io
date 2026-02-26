@@ -11,22 +11,7 @@ description              : "Applied Machine Learning and NLP Researcher | LLMs |
 url                      : "https://sanjana-akhter.github.io"
 baseurl                  : ""
 repository               : "https://github.com/sanjana-akhter/sanjana-akhter.github.io"
-# -----------------------------
-# Navigation
-# -----------------------------
 
-nav:
-  - title: "Home"
-    url: "/"
-
-  - title: "Projects"
-    url: "/projects/"
-
-  - title: "Research"
-    url: "/research/"
-
-  - title: "CV"
-    url: "/cv/"
 # -----------------------------
 # Author Sidebar Information
 # -----------------------------
