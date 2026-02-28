@@ -190,3 +190,9 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    # -----------------------------
+# Include Folders
+# -----------------------------
+
+include:
+  - _pages
