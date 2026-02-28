@@ -18,12 +18,14 @@ Computer Science and Engineering
 
 ## Begum Badrunnessa Government Girls’ College
 **Higher Secondary Certificate (HSC)** 
+
 **Year:** 2020  
 **GPA:** 5.00 / 5.00  
 
 ---
 
 ## Chunkutia Girls High School
+
 **Secondary School Certificate (SSC)** 
 **Year:** 2018
 **GPA:** 5.00 / 5.00  
