@@ -4,9 +4,6 @@ title: "Education"
 permalink: /education/
 author_profile: true
 ---
-
-## Education
-
 ### [Ahsanullah University of Science and Technology](https://aust.edu/)
 Bachelor of Science (B.Sc.)  
 Computer Science and Engineering  
