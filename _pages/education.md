@@ -24,7 +24,6 @@ Computer Science and Engineering
 ---
 
 ## Chunkutia Girls High School
-
 **Secondary School Certificate (SSC)** 
 **Year:** 2018
 **GPA:** 5.00 / 5.00  
