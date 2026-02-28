@@ -18,5 +18,6 @@ main:
     url: /research/
 
   - title: "CV"
-    url: /cv/
+    #url: /cv/
+    url:/files/Resume.pdf
   
