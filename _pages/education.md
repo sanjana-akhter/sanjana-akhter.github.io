@@ -16,14 +16,14 @@ Computer Science and Engineering
 
 ---
 
-## Dhaka College
+## Begum Badrunnessa Government Girls’ College
 **Higher Secondary Certificate (HSC)**  
 **Year:** 2020  
 **GPA:** 5.00 / 5.00  
 
 ---
 
-## Ideal School and College
+## Chunkutia Girls High School
 **Secondary School Certificate (SSC)** 
 **Year:** 2018
 **GPA:** 5.00 / 5.00  
