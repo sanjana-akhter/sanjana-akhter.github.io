@@ -27,3 +27,5 @@ Computer Science and Engineering
 **Secondary School Certificate (SSC)** 
 **Year:** 2018
 **GPA:** 5.00 / 5.00  
+
+---
