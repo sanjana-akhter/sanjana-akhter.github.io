@@ -1,3 +1,11 @@
- <div class="footer">
-          © <span id="year"></span> Sanjana Akhter • Built with GitHub Pages
+<div class="page__footer">
+  <footer>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="page__footer-copyright">
+          © {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} • Built with GitHub Pages
         </div>
+      </div>
+    </div>
+  </footer>
+</div>
