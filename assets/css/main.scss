@@ -41,31 +41,4 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* =========================
-   Custom Navbar Styling
-   ========================= */
 
-/* Align navbar links to the left */
-.greedy-nav .visible-links {
-  justify-content: flex-start;
-}
-
-/* Navigation link style */
-.greedy-nav a {
-  color: #333;
-  font-weight: 500;
-  padding: 10px 15px;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-/* Hover effect */
-.greedy-nav a:hover {
-  color: #0077ff;
-}
-
-/* Active page highlight */
-.greedy-nav .active a {
-  color: #0077ff;
-  font-weight: 600;
-}
