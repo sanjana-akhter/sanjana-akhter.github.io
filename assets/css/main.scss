@@ -1,13 +1,6 @@
 ---
-# Only the main Sass files need front matter (the dashes are required)
+# Only the main Sass files need front matter
 ---
-
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
 
 @import
     "vendor/breakpoint/breakpoint",
@@ -47,7 +40,6 @@
    CUSTOM STYLES - FOOTER
    ======================================== */
 
-/* Remove all borders from footer containers */
 .page__footer,
 .page__footer footer,
 .site-footer,
@@ -55,27 +47,23 @@ footer.page__footer {
   background-color: transparent !important;
   border-top: none !important;
   box-shadow: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
+  margin-top: 3em !important;
+  padding-top: 2em !important;
   width: 100% !important;
 }
 
-/* Single border ONLY on copyright div */
 .page__footer-copyright,
 .footer__copyright {
   color: #999999 !important;
   font-size: 0.75em !important;
   text-align: center !important;
-  justify-content: center !important;
-  display: block !important;
   background-color: transparent !important;
-  padding: 1.5em 2em !important;
+  padding: 1em 2em !important;
   border-top: 1px solid #eaeaea !important;
-  margin: 0 !important;
+  margin: 0 auto !important;
   width: 100% !important;
 }
 
-/* Footer links */
 .page__footer-copyright a,
 .footer__copyright a {
   color: #999999 !important;
@@ -85,157 +73,82 @@ footer.page__footer {
 .page__footer-copyright a:hover,
 .footer__copyright a:hover {
   color: #666666 !important;
-  text-decoration: none !important;
 }
 
 /* ========================================
-   CUSTOM STYLES - HEADER/NAVIGATION
+   CUSTOM STYLES - HEADER
    ======================================== */
 
-/* Make masthead full width */
 .masthead {
   position: relative !important;
   border-bottom: 1px solid #eaeaea !important;
   width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
-/* Flexbox layout for inner wrap */
 .masthead__inner-wrap {
   display: flex !important;
-  flex-direction: row !important;
   justify-content: space-between !important;
   align-items: center !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
   padding: 1em 2em !important;
-  width: 100% !important;
 }
 
-/* Site title (left side) - keep it compact */
-.masthead .site-title,
-.site-title,
-.masthead__title {
-  flex: 0 0 auto !important;
-  min-width: auto !important;
-  margin: 0 !important;
-  margin-right: 3em !important;
-  text-align: left !important;
-  white-space: nowrap !important;
-}
-
-.masthead .site-title a,
-.site-title a {
+.site-title {
   font-size: 1.25em !important;
   font-weight: bold !important;
   text-decoration: none !important;
-  color: #000 !important;
 }
 
-/* Navigation container - push to right */
-.masthead .nav__list,
-.masthead nav,
-nav.masthead__menu,
-.masthead__menu {
-  flex: 1 !important;
-  flex-grow: 1 !important;
-  text-align: right !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  display: block !important;
-}
+/* Navigation */
 
-/* Navigation menu list */
-.masthead .nav__menu,
-.nav__menu,
-.masthead__menu ul,
-ul.nav__menu {
+.masthead__menu ul {
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  display: inline-block !important;
-  text-align: right !important;
-  float: right !important;
 }
 
-/* Navigation items */
-.masthead .nav__menu li,
-.masthead__menu li,
-.nav__menu li {
+.masthead__menu li {
   display: inline-block !important;
-  margin: 0 0 0 2em !important;
-  padding: 0 !important;
-  float: left !important;
+  margin-left: 2em !important;
 }
 
-/* Navigation links */
-.masthead .nav__menu li a,
-.masthead__menu li a,
-.nav__menu li a {
-  display: inline-block !important;
+.masthead__menu li a {
   text-decoration: none !important;
-  padding: 0.5em 0 !important;
   color: #7a8288 !important;
-  border-bottom: none !important;
-  font-size: 1em !important;
-  transition: color 0.3s ease !important;
 }
 
-.masthead .nav__menu li a:hover,
-.masthead__menu li a:hover,
-.nav__menu li a:hover {
+.masthead__menu li a:hover {
   color: #0066cc !important;
 }
 
-/* Active/current page */
-.masthead .nav__menu li.active a,
-.masthead__menu li.active a,
-.nav__menu li.active a {
+.masthead__menu li.active a {
   color: #0066cc !important;
   border-bottom: 2px solid #0066cc !important;
 }
 
-/* Theme toggle button */
-.masthead .theme-toggle,
-.theme-toggle,
-.masthead .btn--inverse,
-nav .theme-toggle {
-  margin-left: 1.5em !important;
-  margin-right: 0 !important;
-  vertical-align: middle !important;
-  display: inline-block !important;
-  float: none !important;
-}
-
 /* ========================================
-   CUSTOM STYLES - GENERAL FIXES
+   GENERAL LAYOUT FIXES
    ======================================== */
 
-/* Ensure full width layout */
 body,
 html {
   width: 100% !important;
   overflow-x: hidden !important;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
-/* Remove horizontal scroll */
 .wrapper {
   max-width: 100% !important;
   padding-left: 1em !important;
   padding-right: 1em !important;
 }
 
-/* Clearfix for floats */
-.masthead__inner-wrap::after {
-  content: "" !important;
-  display: table !important;
-  clear: both !important;
+/* Fix spacing before footer */
+
+.page__content {
+  padding-bottom: 3em;
 }
-.page__footer {
-  margin-top: 2em;
-  padding-top: 1em;
-  clear: both;
+
+hr {
+  margin-bottom: 2em;
 }
